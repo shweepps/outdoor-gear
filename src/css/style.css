@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   padding: 0 10px;
 }
-#noOfItems {
+/* #noOfItems {
   background-color: var(--primary-color);
   width: 2.5vw;
   clip-path: circle(40%);
@@ -38,7 +38,7 @@ header {
   display: inline-block;
   margin-right: -40px;
   margin-top: -40px;
-}
+} */
 
 
 
