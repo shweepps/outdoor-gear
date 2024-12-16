@@ -1,0 +1,406 @@
+{
+    "products": [
+      {
+        "category": "Hammocks",
+        "items": [
+          {"id": 1, "name": "Portable Camping Hammock", "price": 29.99, "description": "Lightweight nylon hammock for camping.", "image": "https://example.com/images/hammock1.jpg"},
+          {"id": 2, "name": "Double Outdoor Hammock", "price": 49.99, "description": "Spacious double hammock with straps.", "image": "https://example.com/images/hammock2.jpg"},
+          {"id": 3, "name": "Travel Hammock", "price": 39.99, "description": "Compact and easy-to-carry hammock.", "image": "https://example.com/images/hammock3.jpg"},
+          {"id": 4, "name": "Camping Hammock with Net", "price": 59.99, "description": "Hammock with built-in mosquito net.", "image": "https://example.com/images/hammock4.jpg"},
+          {"id": 5, "name": "Ultralight Hammock", "price": 27.99, "description": "Ultralight hammock for backpacking.", "image": "https://example.com/images/hammock5.jpg"},
+          {"id": 6, "name": "XL Double Hammock", "price": 54.99, "description": "Extra large double hammock for comfort.", "image": "https://example.com/images/hammock6.jpg"},
+          {"id": 7, "name": "Eco-Friendly Hammock", "price": 35.99, "description": "Made with sustainable materials.", "image": "https://example.com/images/hammock7.jpg"},
+          {"id": 8, "name": "Kids Camping Hammock", "price": 24.99, "description": "Durable hammock designed for kids.", "image": "https://example.com/images/hammock8.jpg"},
+          {"id": 9, "name": "Heavy Duty Hammock", "price": 69.99, "description": "Reinforced hammock for heavy loads.", "image": "https://example.com/images/hammock9.jpg"},
+          {"id": 10, "name": "Luxury Cotton Hammock", "price": 79.99, "description": "Luxury hammock made of soft cotton.", "image": "https://example.com/images/hammock10.jpg"},
+          {"id": 11, "name": "Foldable Hammock", "price": 49.99, "description": "Foldable hammock for easy storage.", "image": "https://example.com/images/hammock11.jpg"},
+          {"id": 12, "name": "Hammock with Stand", "price": 99.99, "description": "Comes with a durable steel stand.", "image": "https://example.com/images/hammock12.jpg"},
+          {"id": 13, "name": "Lightweight Travel Hammock", "price": 19.99, "description": "Perfect for lightweight travel.", "image": "https://example.com/images/hammock13.jpg"},
+          {"id": 14, "name": "Camping Set Hammock", "price": 64.99, "description": "Hammock set includes straps and bag.", "image": "https://example.com/images/hammock14.jpg"},
+          {"id": 15, "name": "Double Layer Hammock", "price": 42.99, "description": "Double-layered hammock for durability.", "image": "https://example.com/images/hammock15.jpg"},
+          {"id": 16, "name": "Weather-Resistant Hammock", "price": 59.99, "description": "Designed for all weather conditions.", "image": "https://example.com/images/hammock16.jpg"},
+          {"id": 17, "name": "Rope Hammock", "price": 34.99, "description": "Traditional rope hammock for outdoor use.", "image": "https://example.com/images/hammock17.jpg"},
+          {"id": 18, "name": "Tree-Friendly Hammock", "price": 31.99, "description": "Tree-friendly straps included.", "image": "https://example.com/images/hammock18.jpg"},
+          {"id": 19, "name": "Family Hammock", "price": 89.99, "description": "Large hammock ideal for families.", "image": "https://example.com/images/hammock19.jpg"},
+          {"id": 20, "name": "Quick Dry Hammock", "price": 45.99, "description": "Quick-drying fabric for rainy days.", "image": "https://example.com/images/hammock20.jpg"}
+        ]
+      },
+      {
+        "category": "Tents",
+        "items": [
+          {"id": 21, "name": "2-Person Dome Tent", "price": 79.99, "description": "Compact dome tent for two people.", "image": "https://example.com/images/tent1.jpg"},
+          {"id": 22, "name": "Family Cabin Tent", "price": 199.99, "description": "Spacious tent for large families.", "image": "https://example.com/images/tent2.jpg"},
+          {"id": 23, "name": "Ultralight Hiking Tent", "price": 129.99, "description": "Lightweight tent for hiking.", "image": "https://example.com/images/tent3.jpg"},
+          {
+            "products": [
+              {
+                "id": 1,
+                "name": "Assault Tent - 3-Person, 3-Season",
+                "brand": "The North Face",
+                "price": 349.99,
+                "discount": "30% off",
+                "image": "image-url-1"
+              },
+              {
+                "id": 2,
+                "name": "Ajax Tent - 2-Person, 3-Season",
+                "brand": "Marmot",
+                "price": 179.99,
+                "discount": "35% off",
+                "image": "image-url-2"
+              },
+              {
+                "id": 3,
+                "name": "Ajax Tent - 3-Person, 3-Season",
+                "brand": "Marmot",
+                "price": 199.99,
+                "discount": "33% off",
+                "image": "image-url-3"
+              },
+              {
+                "id": 4,
+                "name": "Pop-Up System Tent - 3-Person, 3-Season",
+                "brand": "Cloudveil",
+                "price": 49.99,
+                "discount": "29% off",
+                "image": "image-url-4"
+              },
+              {
+                "id": 5,
+                "name": "Homestead Shelter",
+                "brand": "The North Face",
+                "price": 199.99,
+                "discount": "33% off",
+                "image": "image-url-5"
+              },
+              {
+                "id": 6,
+                "name": "Rimrock Tent - 6-Person, 3-Season",
+                "brand": "Cedar Ridge",
+                "price": 99.99,
+                "discount": "38% off",
+                "image": "image-url-6"
+              },
+              {
+                "id": 7,
+                "name": "Alpine Guide Tent - 3-Person, 4-Season",
+                "brand": "The North Face",
+                "price": 349.99,
+                "discount": "28% off",
+                "image": "image-url-7"
+              },
+              {
+                "id": 8,
+                "name": "Rimrock Tent - 2-Person, 3-Season",
+                "brand": "Cedar Ridge",
+                "price": 49.00,
+                "discount": "46% off",
+                "image": "image-url-8"
+              },
+              {
+                "id": 9,
+                "name": "Talus Tent - 3-Person, 3-Season",
+                "brand": "The North Face",
+                "price": 179.99,
+                "discount": "33% off",
+                "image": "image-url-9"
+              },
+              {
+                "id": 10,
+                "name": "Homestead Sun Shade",
+                "brand": "The North Face",
+                "price": 119.99,
+                "discount": "25% off",
+                "image": "image-url-10"
+              },
+              {
+                "id": 11,
+                "name": "Ballyhoo Tent - 2-Person, 3-Season",
+                "brand": "Wenzel",
+                "price": 39.00,
+                "discount": "44% off",
+                "image": "image-url-11"
+              },
+              {
+                "id": 12,
+                "name": "5-Person Tent - 10x8’, 3-Season",
+                "brand": "Wenzel",
+                "price": 69.00,
+                "discount": "43% off",
+                "image": "image-url-12"
+              },
+              {
+                "id": 13,
+                "name": "Pop-Up System Tent - 2-Person, 3-Season",
+                "brand": "Cloudveil",
+                "price": 39.99,
+                "discount": "33% off",
+                "image": "image-url-13"
+              },
+              {
+                "id": 14,
+                "name": "Alpine Guide 3 Tent Footprint",
+                "brand": "The North Face",
+                "price": 15.00,
+                "discount": "50% off",
+                "image": "image-url-14"
+              }
+            ]
+          }
+          
+          
+        ]
+      },
+      {
+        "category": "Backpacks",
+        "items": [
+          {"id": 39, "name": "40L Hiking Backpack", "price": 59.99, "description": "Durable backpack for long hikes.", "image": "https://example.com/images/backpack1.jpg"},
+          {"id": 40, "name": "20L Daypack", "price": 39.99, "description": "Lightweight daypack for travel.", "image": "https://example.com/images/backpack2.jpg"},{
+            "id": 1,
+            "name": "Pivoter 27 L Backpack",
+            "brand": "The North Face",
+            "price": 39.99,
+            "discount": "33% off",
+            "image": "image-url-1"
+          },
+          {
+            "id": 2,
+            "name": "Urban Assault 21L Backpack",
+            "brand": "Mystery Ranch",
+            "price": 69.99,
+            "discount": "36% off",
+            "image": "image-url-2"
+          },
+          {
+            "id": 3,
+            "name": "Router Transit Backpack - 41 L",
+            "brand": "The North Face",
+            "price": 69.99,
+            "discount": "30% off",
+            "image": "image-url-3"
+          },
+          {
+            "id": 4,
+            "name": "Stout 45 Adjustable Backpack",
+            "brand": "Gregory",
+            "price": 99.99,
+            "discount": "33% off",
+            "image": "image-url-4"
+          },
+          {
+            "id": 5,
+            "name": "Maven 45L Backpack - Internal Frame",
+            "brand": "Gregory",
+            "price": 99.99,
+            "discount": "33% off",
+            "image": "image-url-5"
+          },
+          {
+            "id": 6,
+            "name": "Scree 32L Backpack (For Women)",
+            "brand": "Mystery Ranch",
+            "price": 119.99,
+            "discount": "29% off",
+            "image": "image-url-6"
+          },
+          {
+            "id": 7,
+            "name": "Zulu 55 Backpack - Internal Frame",
+            "brand": "Gregory",
+            "price": 129.99,
+            "discount": "35% off",
+            "image": "image-url-7"
+          },
+          {
+            "id": 8,
+            "name": "Siro 50L Backpack - Internal Frame",
+            "brand": "Kelty",
+            "price": 119.99,
+            "discount": "40% off",
+            "image": "image-url-8"
+          },
+          {
+            "id": 9,
+            "name": "Amber 60L Backpack (For Women)",
+            "brand": "Gregory",
+            "price": 129.99,
+            "discount": "24% off",
+            "image": "image-url-9"
+          },
+          {
+            "id": 10,
+            "name": "Deva 60 L A3 Suspension Backpack - Internal Frame (For Women)",
+            "brand": "Gregory",
+            "price": 199.99,
+            "discount": "33% off",
+            "image": "image-url-10"
+          },
+          {
+            "id": 11,
+            "name": "Borealis 28 L Backpack",
+            "brand": "The North Face",
+            "price": 39.00,
+            "discount": "40% off",
+            "image": "image-url-11"
+          },
+          {
+            "id": 12,
+            "name": "Scree 32 L Backpack",
+            "brand": "Mystery Ranch",
+            "price": 119.99,
+            "discount": "29% off",
+            "image": "image-url-12"
+          },
+          {
+            "id": 13,
+            "name": "Stout 65L Backpack",
+            "brand": "Gregory",
+            "price": 129.99,
+            "discount": "24% off",
+            "image": "image-url-13"
+          },
+          {
+            "id": 14,
+            "name": "Terra 65 L Backpack",
+            "brand": "The North Face",
+            "price": 129.99,
+            "discount": "28% off",
+            "image": "image-url-14"
+          },
+          {
+            "id": 15,
+            "name": "Terra 40 L Backpack (For Women)",
+            "brand": "The North Face",
+            "price": 79.99,
+            "discount": "33% off",
+            "image": "image-url-15"
+          }
+         
+        ]
+      },
+      {
+        "category": "Sleeping-Bags",
+        "items": [
+          {"id": 61, "name": "Mummy Sleeping Bag", "price": 79.99, "description": "Cozy bag for cold temperatures.", "image": "https://example.com/images/sleepingbag1.jpg"},
+          {"id": 62, "name": "Double Sleeping Bag", "price": 109.99, "description": "Perfect for couples camping.", "image": "https://example.com/images/sleepingbag2.jpg"},
+          {
+            "id": 24, "name": "5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)", "brand": "Marmot", "price": 229.99, "discount": "27% off", "image": "image-url-1"
+          },
+          {
+            "id": 25,
+            "name": "30°F Mavericks Double Wide Sleeping Bag - Square",
+            "brand": "Marmot",
+            "price": 149.99,
+            "discount": "29% off",
+            "image": "image-url-2"
+          },
+          {
+            "id": 26,
+            "name": "20°F Kenosha Down Sleeping Bag - 650 Fill Power, Mummy (For Men and Women)",
+            "brand": "Marmot",
+            "price": 189.99,
+            "discount": "27% off",
+            "image": "image-url-3"
+          },
+          {
+            "id": 27,
+            "name": "Static V2 Sleeping Pad - Inflatable",
+            "brand": "Klymit",
+            "price": 39.99,
+            "discount": "27% off",
+            "image": "image-url-4"
+          },
+          {
+            "id": 28,
+            "name": "50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
+            "brand": "Kelty",
+            "price": 34.99,
+            "discount": "30% off",
+            "image": "image-url-5"
+          },
+          {
+            "id": 29,
+            "name": "20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
+            "brand": "Marmot",
+            "price": 189.99,
+            "discount": "27% off",
+            "image": "image-url-6"
+          },
+          {
+            "id": 30,
+            "name": "40°F Cosmic DriDown® Sleeping Bag - 600 Fill Power, Mummy",
+            "brand": "Kelty",
+            "price": 99.99,
+            "discount": "29% off",
+            "image": "image-url-7"
+          },
+          {
+            "id": 31,
+            "name": "Armored V Sleeping Pad - Inflatable",
+            "brand": "Klymit",
+            "price": 119.99,
+            "discount": "33% off",
+            "image": "image-url-8"
+          },
+          {
+            "id": 32,
+            "name": "20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+            "brand": "Marmot",
+            "price": 99.99,
+            "discount": "26% off",
+            "image": "image-url-9"
+          },
+          {
+            "id": 33,
+            "name": "SpeedValve NeoAir® Trekker SV Sleeping Pad - Inflatable, Rectangular",
+            "brand": "Therm-a-Rest",
+            "price": 79.99,
+            "discount": "33% off",
+            "image": "image-url-10"
+          },
+          {
+            "id": 34,
+            "name": "20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+            "brand": "Marmot",
+            "price": 99.99,
+            "discount": "26% off",
+            "image": "image-url-11"
+          },
+          {
+            "id": 35,
+            "name": "Insulated Static V Sleeping Pad - Inflatable",
+            "brand": "Klymit",
+            "price": 59.99,
+            "discount": "29% off",
+            "image": "image-url-12"
+          },
+          {
+            "id": 36,
+            "name": "15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
+            "brand": "The North Face",
+            "price": 229.99,
+            "discount": "15% off",
+            "image": "image-url-13"
+          },
+          {
+            "id": 37,
+            "name": "20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
+            "brand": "The North Face",
+            "price": 149.99,
+            "discount": "21% off",
+            "image": "image-url-14"
+          },
+          {
+            "id": 38,
+            "name": "2-Person Air Bed with Pump",
+            "brand": "Sierra Designs",
+            "price": 24.99,
+            "discount": "29% off",
+            "image": "image-url-15"
+          }
+         
+        ]
+      }
+    ]
+  }
+  
