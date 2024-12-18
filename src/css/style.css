@@ -47,7 +47,9 @@ header {
 
 
 
-
+.testimonial-grid{
+ padding: 2rem 2rem 1rem 2rem ;
+}
  
 @keyframes slide-animation {
   0% {
@@ -83,7 +85,10 @@ h2 {
 .mission h2 {
   font-size: 2.5rem;
 }
-
+#walmart ,#amazon{
+  width: 80px;
+  height: 40px;
+ }
 .mission p {
   font-size: 1.2rem;
   opacity: 0.8;
