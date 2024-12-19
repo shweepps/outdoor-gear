@@ -1,3 +1,4 @@
+import aws4 from "aws4";
 const baseURL = import.meta.env.VITE_SERVER_URL;
 console.log(baseURL)
 function convertToJson(res) {
@@ -32,5 +33,36 @@ export default class ExternalServices {
       body: JSON.stringify(payload),
     };
     return await fetch(`${baseURL}checkout`, options).then(convertToJson);
+  }
+  // Fetch product details from Amazon
+  async fetchAmazonProduct(name) {
+    const host = "webservices.amazon.com";
+    const path = "/onca/xml";
+    const query = {
+      Service: "AWSECommerceService",
+      Operation: "ItemSearch",
+      SearchIndex: "All",
+      Keywords: name,
+      AWSAccessKeyId: "YOUR_AWS_ACCESS_KEY",
+      AssociateTag: "YOUR_ASSOCIATE_TAG",
+    };
+    const signedRequest = aws4.sign({
+      host,
+      path,
+      method: "GET",
+      query,
+    });
+
+    const response = await fetch(`https://${host}${path}?${new URLSearchParams(query)}`, signedRequest);
+    return await response.json();
+  }
+
+  // Fetch product details from Walmart
+  async fetchWalmartProduct(name) {
+    const response = await fetch(
+      `https://api.walmartlabs.com/v1/search?query=${name}&apiKey=YOUR_API_KEY`
+    );
+    const data = await response.json();
+    return data.items?.[0]; // Return the first matching product
   }
 }

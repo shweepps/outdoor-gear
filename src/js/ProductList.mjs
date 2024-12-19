@@ -1,14 +1,11 @@
 import {renderListWithTemplate, qs} from "./utils.mjs";
 
 const select = document.querySelector("select")
-// const unwantedList = ["Talus Tent - 3-Person, 3-Season", "Ajax Tent - 2-Person, 3-Season"]
 
 function productCardTemplate(product){
   let discountMessage = "";
   if (product.FinalPrice < product.SuggestedRetailPrice) {
-   // const discountPercentage = Math.round(((product.SuggestedRetailPrice - product.FinalPrice) / product.SuggestedRetailPrice) * 100);
-   // discountMessage = `<p class="product-card__discount">Discount: ${discountPercentage}% off</p>`;
-  }
+}
   return `
    <li class="product-card">
             <a href="/product_pages/index.html?product=${product.Id}">
